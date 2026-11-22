@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <main>
+    <h1>Student Registration Form</h1>
+    <p>Sign up for the school club. This form is a preview.</p>
+
+    <form>
+      <div class="field">
+        <label for="student-name">Full name</label>
+        <input disabled id="student-name" type="text" autocomplete="name">
+      </div>
+
+      <div class="field">
+        <label for="student-email">Email address</label>
+        <input disabled id="student-email" type="email" autocomplete="email">
+      </div>
+
+      <div class="field">
+        <label for="course">Course</label>
+        <select disabled id="course">
+          <option value="">Select a course</option>
+          <option value="computer-science">Computer Science</option>
+          <option value="information-technology">Information Technology</option>
+          <option value="education">Education</option>
+          <option value="business-administration">Business Administration</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="reason">Why do you want to join? (optional)</label>
+        <textarea disabled id="reason" rows="4"></textarea>
+      </div>
+
+      <button type="button" disabled>Submit registration</button>
+    </form>
+  </main>
+</body>
+</html>

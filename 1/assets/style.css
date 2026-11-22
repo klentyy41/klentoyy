@@ -1,0 +1,80 @@
+﻿body {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  margin: 50px 20% 0% 20%;
+  border: 1px solid white;
+  padding: 20px 60px 40px 60px;
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+
+h1 {
+  text-align: center;
+}
+
+.bio {
+  text-align: justify;
+}
+
+.bio-text {
+  text-align: center;
+}
+
+.hobbies {
+  margin: 40px 0 0;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 9px;
+}
+
+.btn-FB{
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(22, 146, 248);
+  cursor: pointer;
+}
+.btn-FB:hover{
+  background-color: rgb(68, 164, 242);
+}
+
+.btn-IG {
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(249, 65, 105);
+  cursor: pointer;
+}
+
+.btn-IG:hover {
+  background-color: rgb(247, 93, 126);
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.btn-TIKTOK {
+  padding: 10px 40px 10px 40px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(5, 0, 1);
+  cursor: pointer;
+}
+
+.btn-TIKTOK:hover {
+  background-color: rgb(63, 62, 62);
+}
